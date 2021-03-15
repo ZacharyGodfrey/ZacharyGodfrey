@@ -6,14 +6,12 @@ You can reach me via email at zchr@gdfr.me.
 
 ## My Current Side Project
 
-I'm calling the project [microlith](https://github.com/ZacharyGodfrey/microlith) (micro + monolith).
+I'm calling the project [microlith](https://github.com/ZacharyGodfrey/microlith) (micro + monolith). It’s a small, intentionally monolithic web application using Node, Express, and Postgres.
 
-The software industry moves quickly, and sometimes I think we're too quick to demonize what used to be standard practice in favor of the hot new thing of the day. I'm all for following best practices in my day job, but in my spare time I like to experiment with those "legacy" ideas in order to see if we've thrown the baby out with the bath water. I enjoy intentionally doing things the "wrong way" in order to see if I can find something of value.
+The microservice architecture is hot right now because it works well for massive, successful products like Netflix. Who doesn’t want to be a huge success, right? But realistically, most production websites won’t require that kind of scale even if they’re successful. Still, it seems that everyone is breaking their monoliths into separate microservices anyway.
 
-Right now the hot thing in software is to break down old, monolithic applications into multiple microservices. There are obvious advantages to this new architecture when you have a large and growing application being built by multiple teams, but I think we're often too quick to run to this new way of doing things and we fall into the trap of premature optimization. My current side project is an intentionally monolithic web app.
+I'm building this project to test the hypothesis that a monolithic app would actually offer some benefits over microservices for these apps that don't require massive scale.
 
-I'm building this project to test my hypothesis that a monolithic app can actually be better than microservices for apps that don't yet require massive scale. By better, I mean that monolithic apps can (when done well) offer a simplicity that microservices just can't and that simplicity leads to faster implementation of new features and an easier time tracking down the source of bugs.
+Monolithic apps, when done well, can maintain a simplicity that leads to faster onboarding of new team members, faster implementation of new features, a simpler process for local development, and an easier time tracking down the source of bugs.
 
-With microservices, you often run into the "Mario problem" - your queen is in another castle. When a bug occurs, you'll often want to follow the flow of data through your application, but this can be tricky when you're having to cross network boundaries and look into several different repositories. In order to test out changes locally, you often have to spin up multiple services that didn't change so that you can test the one service that did change.
-
-With a monolithic application, everything is in one repository that runs as a single service and the data flow is just a series of method calls. As long as the code is organized and written well, this simplicity seems to offer us a much better development experience.
+The point is to delay adding the complexity of microservices to keep things simple so that developers can move quickly in response to the rapid requirement changes that happen when a project is iterating on user feedback.
