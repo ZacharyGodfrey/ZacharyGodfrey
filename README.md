@@ -6,4 +6,4 @@ You can check out my [website](https://zacharygodfrey.dev) for more details.
 
 ## My Current Side Project
 
-I'm calling the project [microlith](https://github.com/ZacharyGodfrey/microlith) (micro + monolith). It’s a small, intentionally monolithic web application using Node, Express, and Postgres. This is just a proof of concept project to see how simple I can keep things while building a web app from scratch.
+I'm building an HTTP API for an online store as a proof of concept using Node, Express, and Postgres. I want to see how simple I can keep things while building an API from scratch. You can check out the [shop-api](https://github.com/ZacharyGodfrey/shop-api) repo to see how it's going.
