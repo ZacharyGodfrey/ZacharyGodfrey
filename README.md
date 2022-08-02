@@ -5,5 +5,6 @@ I'm a senior software engineer based in Florida and I've been building software 
 - Node.js
 - GraphQL
 - Elasticsearch
+- Redis
 
 You can check out my [website](https://zacharygodfrey.dev) for more details.
