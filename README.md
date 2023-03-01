@@ -6,5 +6,6 @@ I'm a senior software engineer based in Florida and I've been building software 
 - GraphQL
 - Elasticsearch
 - Redis
+- RabbitMQ
 
 You can check out my [website](https://zacharygodfrey.dev) for more details.
